@@ -14,9 +14,16 @@ function SignUp() {
       <div className="conteiner2">
         <h2>Sign up now</h2>
         <form>
-          <div className="names"> 
-            <Input type="text" name="firstName" id="firstName" label="Firstname" />
-            <Input type="text" name="lastName" id="lastName" label="Lastname" />
+          <div className="names">
+            <div className="input-container">
+
+              <label className="label1">First name</label>
+              <Input className='names1' type="text" name="firstName" id="firstName" />
+            </div>
+            <div className="input-container">
+              <label className="label2" >Last name</label>
+              <Input className='names2' type="text" name="lastName" id="lastName" />
+            </div>
           </div>
           <Input type="email" name="emailAddress" id="emailAddress" label="Email address" />
           <Input type="tel" name="phoneNumber" id="phoneNumber" label="Phone number" />
@@ -31,10 +38,10 @@ function SignUp() {
               <span>By creating an account, I am also consenting to receive SMS messages and emails, including product new feature updates, events, and marketing promotions.</span>
             </label>
           </div>
-         
-            <button type="submit">Sign up</button>
-            <p>Already have an account? <a href=".\login\index.js"> Log in  </a></p>
-          
+
+          <button type="submit">Sign up</button>
+          <p>Already have an account? <a href=".\login\index.js"> Log in  </a></p>
+
         </form>
       </div>
     </div>

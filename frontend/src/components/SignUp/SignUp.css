@@ -45,8 +45,8 @@ background: linear-gradient(143deg, rgba(11,34,71,1) 20%, rgba(16,49,103,1) 80%,
     width: 55%;
     height: 4%;
     position: relative;
-    left: 13%;
-    bottom:46%;
+    left: 15%;
+    bottom:40%;
     
 }
 
@@ -57,46 +57,12 @@ background: linear-gradient(143deg, rgba(11,34,71,1) 20%, rgba(16,49,103,1) 80%,
     right: 17%;
     top:12%;
     padding: 15px;
+   
     
 }
   
-.conteiner2 label{
-    width: 100%;
-    height: 4%;
-    display: flex;
-    text-align: start;
-    font-size: 14px;
-   
-}
-.conteiner2 Input{
-    border: none;
-    margin-bottom: 10px;
-    height: 40%;
-    background-color: transparent;
-    border: 1px solid #050607;
-    border-radius: 12px ;
-    
-}
-.names {
-    display: flex;
-    gap: 10px;
-    position: relative;
-    top:4%;
-}
-.names label {
-    flex: 1;
-    position: relative;
-    bottom: 15%;
-    
-}   
-.names input {
-    flex: 1; 
-    position: relative;
-    top:23%;
-    right: 15%;
-    padding-left: 40px;
-    padding-right: 30px;
-}
+
+
 
 .checkbox-container {
     display: flex;
@@ -144,3 +110,21 @@ background: linear-gradient(143deg, rgba(11,34,71,1) 20%, rgba(16,49,103,1) 80%,
     left: 20%;
     
  }
+ .names {
+    display: flex;
+    gap:45px;
+    padding-bottom: 10px;
+}
+.input-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 44px
+}
+.names input{
+    height: 35%;    
+}
+.names label{
+    margin-bottom:7px;
+    
+   
+}
