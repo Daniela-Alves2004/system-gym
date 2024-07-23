@@ -1,17 +1,19 @@
 import './App.css';
-import SignUp from './components/SignUp';
-import Login from './components/Login';
-import './assets/fonts.css';
+ import './assets/fonts.css';
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import SignInPage from './components/SignInPage';
 
 function App() {
   return (
-    <>
-    <div className="App">
-      <SignUp />
-      <Login />
-    </div>
-    
-    </>
+    /*
+    <Router>
+      <Routes>
+        <Route path="/" element={<SignUp />} />
+        <Route path="/login" element={<SignIn />} />
+      </Routes>
+    </Router>*/
+    <SignInPage />
   );
 }
 
