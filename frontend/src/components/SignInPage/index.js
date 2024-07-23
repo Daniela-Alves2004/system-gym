@@ -1,23 +1,26 @@
 import Button from "../Button";
-import iconStart from "../../assets/icons/start.png";
+import iconStart from "../../assets/icons/Icon.png";
 import "./SignInPage.css";
 function SignInPage() {
     return (
         <div className="container">
             <div className="containerSignUp">
                 <div className="titleSignUp">
-                    <h1>Sign In</h1>
-                    <p>Let’s get you ready to start
+                    <h1>Sign Up</h1>
+                    <p>Let’s get you ready to start<br/>
                         using our services</p>
                 </div>
                 <div className="goSignUp">
-                    <p>Create your account in three simple steps.</p>
-                    <Button label="oi" className="secundario" image={iconStart} />
+                    <p className="textSignup ">Create your account in <span>three</span>  simple steps.</p>
+                    <Button label="Start" className="primary" image={iconStart} />
                 </div>
             </div>
             <div className="containerSignIn">
-                <h1>Is you already one of our user?</h1>
-                <Button label="Login" className="primario" />
+                <h1>
+                    Is you already one <br/>
+                     of our user?</h1>
+                <Button label="Login" className="secondary"/>
+                
             </div>
         </div>
     );

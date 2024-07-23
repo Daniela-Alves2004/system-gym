@@ -1,3 +1,55 @@
 .container{
-     background-color: #bb4242;
+     max-width: 100%;
+     width:100%;
+     height: 100%;
+     background-color: rgb(255, 254, 254);
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     font-family: poppins;
+     margin-top: 50px;
+    /* margin: 224px 335px 225px 335px ;*/
+}
+.containerSignUp{
+     background-color: rgb(241, 237, 237);
+     width: 375px;
+     height: 500px;
+}
+
+.containerSignUp{
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+     align-items: center;
+}
+.titleSignUp p{
+     text-align: center;
+}
+.goSignUp p{
+     font-size: 10px;
+}
+.textSignup span{
+     font-weight: 800;
+     color: black;
+}
+.containerSignIn{
+     font-size: 15px;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+     align-items: center;
+     text-align: left;
+     background-color: rgb(226, 226, 226);
+     width: 375px;
+     height: 500px;
+     
+}
+.containerSignIn h1{
+     
+     padding-left: 29px;
+}
+h1{
+     font-size: 25px;
+     font-family: 400;
+
 }
