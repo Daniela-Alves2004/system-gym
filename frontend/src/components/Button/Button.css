@@ -1,0 +1,10 @@
+.primario{
+    background-color: red;
+    height: 12px;
+}
+.secundario{
+    background-color: rgb(0, 255, 13);
+    color: yellow;
+    height: 30px;
+    text-decoration: none;
+}   

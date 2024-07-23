@@ -1,6 +1,7 @@
 import Button from "../Button";
 import iconStart from "../../assets/icons/start.png";
-function SignIn() {
+import "./SignInPage.css";
+function SignInPage() {
     return (
         <div className="container">
             <div className="containerSignUp">
@@ -11,14 +12,14 @@ function SignIn() {
                 </div>
                 <div className="goSignUp">
                     <p>Create your account in three simple steps.</p>
-                    <Button img={iconStart} label="Start" className="btStart" />
+                    <Button label="oi" className="secundario" image={iconStart} />
                 </div>
             </div>
             <div className="containerSignIn">
                 <h1>Is you already one of our user?</h1>
-                <Button label="Login" className="btLogin" />
+                <Button label="Login" className="primario" />
             </div>
         </div>
     );
 };
-export default SignIn;
+export default SignInPage;
